@@ -7,4 +7,4 @@ router.post("/shorten", urlRouter.urlShort);
 router.get("/:shortId", urlRouter.shortId);
 router.get("/stats/:shortId", urlRouter.stats)
 
-module.exports = router;
+module.exports = router
